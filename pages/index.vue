@@ -19,7 +19,9 @@ export default Vue.extend({})
 </script>
 
 <style>
-body {
+html, body {
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   overflow: hidden;
 }
@@ -40,16 +42,25 @@ video {
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0,0.25);
+  padding: 0 25px;
 }
 .viewport-header > h1 {
   margin: 0;
-  font-size: 7.5rem;
+  font-size: 125px;
   color: white;
   font-family: 'Raleway', serif;
 }
 .viewport-header > h1 + p {
-  font-size: 1.5rem;
+  font-size: 25px;
   color: white;
   font-family: 'Open Sans', sans-serif;
+}
+@media screen and (max-width: 414px) {
+  .viewport-header > h1 {
+    font-size: 50px;
+  }
+  .viewport-header > h1 + p {
+    font-size: 15px;
+  }
 }
 </style>
