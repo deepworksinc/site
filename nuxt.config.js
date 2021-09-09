@@ -2,9 +2,13 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  router: {
+    base: '/site/'
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'deep-works',
+    title: 'DeepWorks',
     htmlAttrs: {
       lang: 'en'
     },
