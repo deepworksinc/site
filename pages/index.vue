@@ -1,5 +1,4 @@
 <template>
-  <!-- <Tutorial/> -->
   <div class="container">
     <video id="bgvid" playsinline autoplay muted loop poster="seabg.jpg">
       <source src="seabg.mp4" type="video/mp4" />
