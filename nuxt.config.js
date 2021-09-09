@@ -8,7 +8,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'deep-works',
+    title: 'DeepWorks',
     htmlAttrs: {
       lang: 'en'
     },
