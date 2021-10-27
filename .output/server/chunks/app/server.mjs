@@ -17806,7 +17806,7 @@ async function createApp(ssrContext, config = {}) {
       "link": [{
         "rel": "icon",
         "type": "image\u002Fx-icon",
-        "href": "\u002Ffavicon.ico"
+        "href": "favicon.ico"
       }, {
         "rel": "stylesheet",
         "href": "https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Raleway"
