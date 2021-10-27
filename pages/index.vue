@@ -4,9 +4,7 @@
       <source src="seabg.mp4" type="video/mp4" />
     </video>
     <header class="viewport-header">
-      <h1>
-        DeepWorks
-      </h1>
+      <img src="deepworks-logo.png" />
       <p>Building tools for you to go deeper on fitness and focus.</p>
     </header>
   </div>
@@ -42,24 +40,26 @@ video {
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0,0.25);
-  padding: 0 25px;
+  padding: 0 22.5px;
 }
-.viewport-header > h1 {
+.viewport-header > img {
   margin: 0;
-  font-size: 125px;
-  color: white;
-  font-family: 'Raleway', serif;
+  filter: invert(1);
+  max-width: 650px;
+  width: 100%;
 }
-.viewport-header > h1 + p {
-  font-size: 25px;
+.viewport-header > img + p {
+  font-size: 22.5px;
   color: white;
   font-family: 'Open Sans', sans-serif;
+  max-width: 650px;
+  width: 100%;
 }
 @media screen and (max-width: 414px) {
-  .viewport-header > h1 {
+  .viewport-header > img {
     font-size: 50px;
   }
-  .viewport-header > h1 + p {
+  .viewport-header > img + p {
     font-size: 15px;
   }
 }
