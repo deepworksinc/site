@@ -40,18 +40,19 @@ video {
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0,0.25);
-  padding: 0 22.5px;
 }
 .viewport-header > img {
   margin: 0;
   filter: invert(1);
   max-width: 650px;
+  width: 90vw;
 }
 .viewport-header > img + p {
   font-size: 22.5px;
   color: white;
   font-family: 'Open Sans', sans-serif;
   max-width: 650px;
+  width: 90vw;
 }
 @media screen and (max-width: 414px) {
   .viewport-header > img {
