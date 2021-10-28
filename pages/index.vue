@@ -46,14 +46,12 @@ video {
   margin: 0;
   filter: invert(1);
   max-width: 650px;
-  width: 100%;
 }
 .viewport-header > img + p {
   font-size: 22.5px;
   color: white;
   font-family: 'Open Sans', sans-serif;
   max-width: 650px;
-  width: 100%;
 }
 @media screen and (max-width: 414px) {
   .viewport-header > img {
