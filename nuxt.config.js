@@ -1,12 +1,13 @@
-import { defineNuxtConfig } from '@nuxt/bridge'
+import { defineNuxtConfig } from 'nuxt3'
 
 export default defineNuxtConfig({
-  bridge: false,
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-  router: {
-    base: '/site/'
+  publicRuntimeConfig: {
+    app: {
+      basePath: "/site"
+    }
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head

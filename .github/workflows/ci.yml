@@ -35,12 +35,12 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: npm install
 
-      - name: Generate page
-        run: npm run generate
+      - name: Build site
+        run: npm run build
               
-      - name: Deploy page
+      - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.DEEPWORKS_GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./.nuxt/dist
 
