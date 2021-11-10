@@ -11,13 +11,12 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
 
-export default Vue.extend({})
+export default {}
 </script>
 
 <style>
-html, body {
+html, body, .container {
   width: 100vw;
   height: 100vh;
   margin: 0;
