@@ -5,9 +5,7 @@ export default defineNuxtConfig({
   target: 'static',
 
   publicRuntimeConfig: {
-    app: {
-      basePath: "/site"
-    }
+    basePath: '/site'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
