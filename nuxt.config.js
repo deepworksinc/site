@@ -4,6 +4,8 @@ export default defineNuxtConfig({
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  buildDir: 'nuxt-build',
+
   publicRuntimeConfig: {
     app: {
       basePath: "/site"
