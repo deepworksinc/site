@@ -61,10 +61,10 @@
         "node_modules/nuxt3/dist/meta/runtime/*"
       ],
       "#build": [
-        ".nuxt"
+        "nuxt-build"
       ],
       "#build/*": [
-        ".nuxt/*"
+        "nuxt-build/*"
       ],
       "#config": [
         "@nuxt/nitro"
